@@ -1,3 +1,4 @@
+require 'pry'
 class TextAnalyzer
   attr_reader :text
  
@@ -39,4 +40,5 @@ class TextAnalyzer
  
     biggest
   end
+  binding.pry
 end
